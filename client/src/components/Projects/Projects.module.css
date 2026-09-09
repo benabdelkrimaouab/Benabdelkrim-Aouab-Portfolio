@@ -39,33 +39,34 @@
 }
 
 .grid {
-  columns: 2;
-  column-gap: 28px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+  max-width: 780px;
+  margin: 0 auto;
 }
 
 .card {
   display: block;
-  break-inside: avoid;
-  margin-bottom: 28px;
-  border-radius: 22px;
+  border-radius: 16px;
   overflow: hidden;
   background: var(--bg-card);
   border: 1px solid var(--border-subtle);
-  box-shadow: 0 10px 24px rgba(51, 49, 62, 0.06);
+  box-shadow: 0 8px 18px rgba(51, 49, 62, 0.06);
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 .card:hover {
-  transform: translateY(-6px) rotate(-0.6deg);
+  transform: translateY(-5px) rotate(-0.4deg);
   box-shadow: var(--shadow-soft);
 }
 
 .cardShift {
-  margin-top: 44px;
+  margin-top: 0;
 }
 
 .imageWrap {
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 16 / 10;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -74,35 +75,40 @@
   opacity: 0.55;
 }
 
+.imageWrap svg {
+  width: 44px;
+  height: 44px;
+}
+
 .accentSage .imageWrap { background: var(--sage); }
 .accentLavender .imageWrap { background: var(--lavender); }
 .accentSky .imageWrap { background: var(--sky); }
 .accentBlush .imageWrap { background: var(--blush); }
 
 .cardFooter {
-  padding: 20px 22px 24px;
+  padding: 14px 16px 16px;
 }
 
 .stackRow {
   display: flex;
   flex-wrap: wrap;
-  gap: 6px;
-  margin-top: 12px;
+  gap: 5px;
+  margin-top: 8px;
 }
 
 .stackChip {
   font-family: var(--font-mono);
-  font-size: 0.68rem;
+  font-size: 0.6rem;
   font-weight: 600;
   color: var(--coral-deep);
   background: var(--blush);
-  padding: 3px 9px;
+  padding: 2px 7px;
   border-radius: 999px;
 }
 
 .demonstrates {
-  margin-top: 10px;
-  font-size: 0.82rem;
+  margin-top: 8px;
+  font-size: 0.72rem;
   color: var(--ink-soft);
   font-style: italic;
 }
@@ -110,22 +116,26 @@
 .cardTitle {
   font-family: var(--font-display);
   font-weight: 600;
-  font-size: 1.1rem;
+  font-size: 0.94rem;
   color: var(--ink);
-  margin-bottom: 6px;
+  margin-bottom: 4px;
 }
 
 .cardSubtitle {
   color: var(--ink-soft);
-  font-size: 0.88rem;
+  font-size: 0.76rem;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
   .grid {
-    columns: 1;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 520px;
   }
+}
 
-  .cardShift {
-    margin-top: 0;
+@media (max-width: 560px) {
+  .grid {
+    grid-template-columns: 1fr;
+    max-width: 340px;
   }
 }

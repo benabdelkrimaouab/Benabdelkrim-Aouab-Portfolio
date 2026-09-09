@@ -1,14 +1,12 @@
 import styles from "./Projects.module.css";
 import { useTranslation } from "../../i18n.js";
 
-// Most of these projects don't have a confirmed, individually-verified repo
-// URL on hand, so those cards link to the GitHub profile rather than
-// guessing at a specific repo path that may not exist. AI Recruiter
-// Assistant has a real public repo, so it links there directly.
+// CareBuddyDZ and AI Sales Agent don't have a confirmed, individually-
+// verified repo URL on hand, so those cards link to the GitHub profile
+// rather than guessing at a specific repo path that may not exist.
+// AI Recruiter Assistant has a real public repo, so it links there directly.
 const GITHUB_PROFILE = "https://github.com/benabdelkrimaouab";
 const URLS = [
-  GITHUB_PROFILE,
-  GITHUB_PROFILE,
   GITHUB_PROFILE,
   GITHUB_PROFILE,
   "https://github.com/benabdelkrimaouab/ai-recruiter-assistant",

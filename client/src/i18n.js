@@ -89,22 +89,6 @@ export const translations = {
           demonstrates: "AI agent orchestration with structured outputs, automated scheduling, and CRM synchronization.",
         },
         {
-          icon: "meeting",
-          title: "AI Meeting Assistant",
-          subtitle:
-            "n8n workflow \u2014 transcript to AI summary, tasks & notifications",
-          stack: ["n8n", "OpenAI", "Google Sheets", "Telegram"],
-          demonstrates: "Automated meeting-to-task pipeline with AI summarization and dedicated error handling.",
-        },
-        {
-          icon: "doc",
-          title: "PearlDent",
-          subtitle:
-            "Dental clinic platform \u2014 booking, prescriptions & WhatsApp AI assistant",
-          stack: ["React", "Node.js", "Express", "MongoDB", "n8n"],
-          demonstrates: "Full-stack clinic system with an AI-assisted WhatsApp booking workflow.",
-        },
-        {
           icon: "recruit",
           title: "AI Recruiter Assistant",
           subtitle:
@@ -280,22 +264,6 @@ export const translations = {
             "workflow n8n \u2014 تأهيل العملاء بالذكاء الاصطناعي، حجز مواعيد تلقائي، ومزامنة CRM",
           stack: ["n8n", "OpenAI", "Google Calendar", "Airtable", "Gmail"],
           demonstrates: "تنسيق وكيل ذكاء اصطناعي بمخرجات منظمة، مع جدولة تلقائية ومزامنة CRM.",
-        },
-        {
-          icon: "meeting",
-          title: "مساعد الاجتماعات الذكي",
-          subtitle:
-            "workflow n8n \u2014 تحويل محضر الاجتماع إلى ملخص ومهام وإشعارات عبر الذكاء الاصطناعي",
-          stack: ["n8n", "OpenAI", "Google Sheets", "Telegram"],
-          demonstrates: "خط أتمتة كامل من محضر الاجتماع إلى المهام، مع تلخيص بالذكاء الاصطناعي ومعالجة أخطاء مخصصة.",
-        },
-        {
-          icon: "doc",
-          title: "PearlDent",
-          subtitle:
-            "منصة عيادة أسنان \u2014 حجز مواعيد ووصفات طبية ومساعد واتساب ذكي",
-          stack: ["React", "Node.js", "Express", "MongoDB", "n8n"],
-          demonstrates: "نظام متكامل لعيادة أسنان مع سير عمل حجز عبر واتساب مدعوم بالذكاء الاصطناعي.",
         },
         {
           icon: "recruit",

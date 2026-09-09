@@ -104,6 +104,14 @@ export const translations = {
           stack: ["React", "Node.js", "Express", "MongoDB", "n8n"],
           demonstrates: "Full-stack clinic system with an AI-assisted WhatsApp booking workflow.",
         },
+        {
+          icon: "recruit",
+          title: "AI Recruiter Assistant",
+          subtitle:
+            "n8n workflow \u2014 AI resume scoring, auto-scheduling & race-safe booking",
+          stack: ["n8n", "OpenRouter", "Google Calendar", "Gmail", "Telegram", "Google Sheets"],
+          demonstrates: "End-to-end recruiting pipeline with LLM candidate scoring, a distributed-lock scheduler that prevents double-booking, and centralized error handling.",
+        },
       ],
     },
     feedbacks: {
@@ -288,6 +296,14 @@ export const translations = {
             "منصة عيادة أسنان \u2014 حجز مواعيد ووصفات طبية ومساعد واتساب ذكي",
           stack: ["React", "Node.js", "Express", "MongoDB", "n8n"],
           demonstrates: "نظام متكامل لعيادة أسنان مع سير عمل حجز عبر واتساب مدعوم بالذكاء الاصطناعي.",
+        },
+        {
+          icon: "recruit",
+          title: "مساعد التوظيف الذكي (AI Recruiter Assistant)",
+          subtitle:
+            "workflow n8n \u2014 تقييم السير الذاتية بالذكاء الاصطناعي، جدولة تلقائية وحجز آمن من التعارض",
+          stack: ["n8n", "OpenRouter", "Google Calendar", "Gmail", "Telegram", "Google Sheets"],
+          demonstrates: "خط أتمتة توظيف متكامل مع تقييم المرشحين بالذكاء الاصطناعي، جدولة مقابلات بقفل موزّع يمنع التعارض في الحجز، ومعالجة أخطاء مركزية.",
         },
       ],
     },

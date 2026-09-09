@@ -1,11 +1,18 @@
 import styles from "./Projects.module.css";
 import { useTranslation } from "../../i18n.js";
 
-// None of these projects have a confirmed, individually-verified repo URL
-// on hand, so every card links to the GitHub profile rather than guessing
-// at a specific repo path that may not exist.
+// Most of these projects don't have a confirmed, individually-verified repo
+// URL on hand, so those cards link to the GitHub profile rather than
+// guessing at a specific repo path that may not exist. AI Recruiter
+// Assistant has a real public repo, so it links there directly.
 const GITHUB_PROFILE = "https://github.com/benabdelkrimaouab";
-const URLS = [GITHUB_PROFILE, GITHUB_PROFILE, GITHUB_PROFILE, GITHUB_PROFILE];
+const URLS = [
+  GITHUB_PROFILE,
+  GITHUB_PROFILE,
+  GITHUB_PROFILE,
+  GITHUB_PROFILE,
+  "https://github.com/benabdelkrimaouab/ai-recruiter-assistant",
+];
 const ACCENTS = ["accentSage", "accentLavender", "accentSky", "accentBlush"];
 
 export default function Projects({ lang }) {
@@ -116,6 +123,15 @@ function ProjectIcon({ type }) {
           <path d="M7 2.5h7l4 4V21a1 1 0 01-1 1H7a1 1 0 01-1-1V3.5a1 1 0 011-1z" />
           <path d="M14 2.5V7h4" />
           <path d="M9 12.5h6M9 15.5h6M9 18.5h3.5" />
+        </svg>
+      );
+    case "recruit":
+      return (
+        <svg {...common}>
+          <circle cx="10" cy="8" r="3.2" />
+          <path d="M4.5 20c0-3.6 2.6-6.2 5.5-6.2s5.5 2.6 5.5 6.2" />
+          <circle cx="17.5" cy="16.5" r="4.2" />
+          <path d="M15.7 16.6l1.2 1.2 2.2-2.4" />
         </svg>
       );
     default:

@@ -32,37 +32,37 @@ export const translations = {
           icon: "agent",
           title: "AI Agents",
           description:
-            "AI-powered agents for lead qualification, customer support, and business operations \u2014 built with structured outputs so they plug cleanly into the rest of your stack.",
+            "AI agents for lead qualification, support, and operations \u2014 built with structured outputs that plug into your stack.",
         },
         {
           icon: "workflow",
           title: "n8n Workflow Automation",
           description:
-            "Automating repetitive business processes and connecting APIs, databases, CRMs, and communication tools into one reliable workflow.",
+            "Connecting APIs, databases, CRMs, and communication tools into one reliable automated workflow.",
         },
         {
           icon: "crm",
           title: "CRM & Lead Automation",
           description:
-            "Lead capture, AI qualification, routing, follow-up, and CRM synchronization, so no lead sits unanswered.",
+            "Lead capture, AI qualification, routing, and CRM sync \u2014 so no lead goes unanswered.",
         },
         {
           icon: "chat",
           title: "WhatsApp & Communication Automation",
           description:
-            "AI-assisted conversations, message classification, and automated routing for customer-facing channels.",
+            "AI-assisted conversations, message classification, and automated routing for customer channels.",
         },
         {
           icon: "integration",
           title: "Custom AI Integrations",
           description:
-            "Connecting LLMs and external services (calendars, sheets, email, messaging apps) to the systems your business already runs on.",
+            "Connecting LLMs and external tools \u2014 calendars, sheets, email, messaging \u2014 to your existing systems.",
         },
         {
           icon: "web",
           title: "Web & Mobile Development",
           description:
-            "The frontend, backend, and database work that automations need to run on \u2014 React, Node.js/Express, and MongoDB.",
+            "The frontend, backend, and database work automations run on \u2014 React, Node.js/Express, MongoDB.",
         },
       ],
     },
@@ -209,37 +209,37 @@ export const translations = {
           icon: "agent",
           title: "وكلاء الذكاء الاصطناعي",
           description:
-            "وكلاء مدعومون بالذكاء الاصطناعي لتأهيل العملاء المحتملين ودعم العملاء وعمليات الأعمال \u2014 مبنيون بمخرجات منظمة لتندمج بسلاسة مع بقية أنظمتك.",
+            "وكلاء ذكاء اصطناعي لتأهيل العملاء والدعم والعمليات \u2014 بمخرجات منظمة تندمج مع أنظمتك.",
         },
         {
           icon: "workflow",
           title: "أتمتة سير العمل عبر n8n",
           description:
-            "أتمتة العمليات التجارية المتكررة وربط واجهات برمجة التطبيقات وقواعد البيانات وأنظمة CRM وأدوات التواصل في سير عمل واحد موثوق.",
+            "ربط واجهات البرمجة وقواعد البيانات وأنظمة CRM وأدوات التواصل في سير عمل واحد موثوق.",
         },
         {
           icon: "crm",
           title: "أتمتة CRM والعملاء المحتملين",
           description:
-            "التقاط العملاء المحتملين وتأهيلهم بالذكاء الاصطناعي وتوجيههم ومتابعتهم ومزامنتهم مع نظام CRM، بحيث لا يبقى أي عميل محتمل دون رد.",
+            "التقاط العملاء وتأهيلهم وتوجيههم ومزامنتهم مع CRM \u2014 بلا رد متأخر.",
         },
         {
           icon: "chat",
           title: "أتمتة واتساب والتواصل",
           description:
-            "محادثات مدعومة بالذكاء الاصطناعي، وتصنيف الرسائل، وتوجيه تلقائي لقنوات التواصل مع العملاء.",
+            "محادثات ذكية، تصنيف رسائل، وتوجيه تلقائي لقنوات التواصل مع العملاء.",
         },
         {
           icon: "integration",
           title: "تكاملات ذكاء اصطناعي مخصصة",
           description:
-            "ربط نماذج اللغة الكبيرة والخدمات الخارجية (التقويم، الجداول، البريد، تطبيقات المراسلة) بالأنظمة التي تعمل بها شركتك بالفعل.",
+            "ربط نماذج اللغة والأدوات الخارجية \u2014 التقويم والجداول والبريد \u2014 بأنظمتك الحالية.",
         },
         {
           icon: "web",
           title: "تطوير الويب والتطبيقات",
           description:
-            "العمل على الواجهة الأمامية والخلفية وقواعد البيانات التي تحتاجها الأتمتة لتعمل \u2014 React وNode.js/Express وMongoDB.",
+            "الواجهة والخلفية وقاعدة البيانات التي تعمل عليها الأتمتة \u2014 React وNode.js/Express وMongoDB.",
         },
       ],
     },
